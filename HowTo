@@ -1,3 +1,4 @@
+
 ### The following steps are provided to obtain a reverse shell on a Windows 2012 Server. The steps performed, were carried out in a secure environment. Please ensure, if you do choose to replicate this activity that you either do so as qualified practitioner or that you have a qualified practitioner with you.
 
 # Step 1 : Create a reverse handler using metasploit. To do so, you run the following commands -
