@@ -1,5 +1,5 @@
 # theperfectreverseshell
-This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. The aim of obtaining access to view and copy the output produced by downloading certain tools to the compromised host to the attacking machine and then run a script to compare the produced data against a pre-defined list of data
+This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. The aim of obtaining access is to view and copy the output produced by downloading certain tools to the compromised and then run a script to compare the produced data against a pre-defined list of data
 
 ### The following steps are provided to obtain a reverse shell on a Windows 2012 Server. The steps performed, were carried out in a secure environment. Please ensure, if you do choose to replicate this activity that you either do so as qualified practitioner or that you have a qualified practitioner with you.
 
