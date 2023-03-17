@@ -20,6 +20,14 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - And you should see the following output :
   
   ![image](https://user-images.githubusercontent.com/101802030/225945823-7e83ae7e-f211-4359-8b63-a72db0f21506.png)
+  
+  # Step 3 : Infect the victim machine with the exploit. In this case it will be a Windows Server 2012 edition. To do so, you may perform the following steps -
+  - 1 - Host the exploit on a webserver, preferrably Linux. 
+  - 2 - Create an e-mail containing a url link to the exploit
+  - 3 - Send email to victim machine and have the link clicked on. You should see the following screen on your server and/or C2
+  
+  ![image](https://user-images.githubusercontent.com/101802030/225951348-ec303cc6-1302-4ce9-bb98-a8710cf28dc6.png)
+
 
 
 
