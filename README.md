@@ -45,6 +45,19 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - 3 - Scroll down until you see the following output, and copy the ntlm hash -
   
   ![image](https://user-images.githubusercontent.com/101802030/225959132-c3beb498-afb0-499f-80bf-5e7d08f1646e.png)
+  
+  # Step 6 : Compare the ntlm hash against a list of words that have been converted to md5 hashes -
+  - 1 - Create a script to compare the hashes. I used C# to create one. This would mean that, you will need a Windows computer to successfully perform this step. 
+  - Please note : You may create a script in any language of your choice, python would be ideal, since it very user-friendly.
+  
+  - See screenshot below, of the comparison being performed. Enjoy!
+  
+  ![image](https://user-images.githubusercontent.com/101802030/225962918-b259f5f7-dcaf-4053-bc15-9f43ae23af59.png)
+  
+  - As you can see, the program I have created in this case, is called hashmatcher. Unfortunately it is not publicly available, however I am upon to discussing acquiring the software at a minimal cost. Preferrably in Indian rupees.
+  
+  Disclaimer : All activities showcased are performed within the confines of legal law. Please ensure that these steps are only carried out on authorized hosts or within a home environment.
+
 
 
 
