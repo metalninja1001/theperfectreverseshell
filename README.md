@@ -29,7 +29,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   ![image](https://user-images.githubusercontent.com/101802030/225951348-ec303cc6-1302-4ce9-bb98-a8710cf28dc6.png)
   
   # Step 4 : Download mimikatz and obtain ntlm hash. To do so, you use the following steps -
-  - 1 - In your meterpreter session, type upload and the location of the file you would like to upload. In this case, it will be mimikatz. It could be a good idea to place it in your web servers root directory. See below example screenshot of this step being performed :
+  - 1 - In your meterpreter session, type upload and the location of the file you would like to upload as well as the location you would like to upload the file to on the victim. Make sure it is a not a system directory. In this case, it will be mimikatz. It could be a good idea to place it in your web servers root directory. See below example screenshot of this step being performed :
   
   ![image](https://user-images.githubusercontent.com/101802030/225954841-e3218cfe-4182-4a50-9935-e6114c380d5b.png)
   
