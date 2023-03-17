@@ -57,7 +57,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   
   - As you can see, the program I have created in this case, is called hashmatcher. Unfortunately it is not publicly available, however I am upon to discussing acquiring the software at a minimal cost. Preferrably in Indian rupees.
   
-  - It would be important to note, that in creating the wordlist of md5 hashes, it would be best to ensure that the word is next to the hash when looking for which word it is, after you have found a match. Obviously this would be automated in the previous step. To do so, you create a program. I used python. Again, this software is not publicly available but can be acquired at a small cost. See example list below :
+  - It would be important to note, that in creating the wordlist of md5 hashes, it would be best to ensure that the word is next to the hash when looking for which word it is, after you have found a match. To do so, you can create a script or a program. I used python. Again, this software is not publicly available but can be acquired at a small cost. See example list below :
   
   ![image](https://user-images.githubusercontent.com/101802030/225966196-e8fbf262-21d3-445c-a3c5-57aeab8c5b8a.png)
 
