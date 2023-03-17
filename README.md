@@ -41,6 +41,11 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - You should then see the following screen :
   
   ![image](https://user-images.githubusercontent.com/101802030/225957540-0887f031-02b4-44da-8a83-fac4887ce0cf.png)
+  
+  - 3 - Scroll down until you see the following output, and copy the ntlm hash -
+  
+  ![image](https://user-images.githubusercontent.com/101802030/225959132-c3beb498-afb0-499f-80bf-5e7d08f1646e.png)
+
 
 
 
