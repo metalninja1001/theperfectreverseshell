@@ -49,7 +49,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   # Step 6 : Compare the ntlm hash against a list of words that have been converted to md5 hashes -
   - 1 - Create a script to compare the hashes. I used C# to create one. This would mean that, you will need a Windows computer to successfully perform this step. 
   - Please note : You may create a script in any language of your choice, python would be ideal, since it is very user-friendly. You will also need a list a of words converted to md5 hashes saved as a .txt file. The command would be as follows :
-  - 2 - hashmatcher.exe <ntlm hash> <hash_word_file.txt>
+  - 2 - hashmatcher.exe <ntlm_hash> <hash_word_file.txt>
   
   - See screenshot below, of the comparison being performed. Enjoy!
   
