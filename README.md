@@ -37,7 +37,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   - 1 - Run mimikatz, by simply typing mimikatz.exe. Don't use tab(ever!). This should display the mimikatz console.
   - 2 - In order to obtain the ntlm hash, run the following command :
   - 2.1 - privilege::debug
-  - 2.2 - sekurlsa::lognoPasswords
+  - 2.2 - sekurlsa::logonPasswords
   - You should then see the following screen :
   
   ![image](https://user-images.githubusercontent.com/101802030/225957540-0887f031-02b4-44da-8a83-fac4887ce0cf.png)
