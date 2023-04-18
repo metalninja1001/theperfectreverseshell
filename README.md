@@ -61,7 +61,8 @@ This is a demonstration of obtaining a reverse shell on a Windows 2012 Server. T
   
   ![image](https://user-images.githubusercontent.com/101802030/225966196-e8fbf262-21d3-445c-a3c5-57aeab8c5b8a.png)
 
-  
+  - Alternatively you can log onto the host using evil-winrm and the obtained ntlm hash.
+  - Use the following command on kali : evil-winrm -i <ip address> -u <username> -H <ntlm hash>
   
   Disclaimer : All activities showcased are performed within the confines of legal law. Please ensure that these steps are only carried out on authorized hosts or within a home environment.
 
